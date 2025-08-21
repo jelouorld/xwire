@@ -1,2 +1,2 @@
 # xwire
-Smart, recursive Inversion of Control frameowrk.
+Smart, recursive Inversion of Control.
