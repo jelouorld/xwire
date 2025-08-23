@@ -1,7 +1,7 @@
 [project]
 name = "xwire"
 version = "0.1.0"
-description = "Add your description here"
+description = "Smart, recursive, inversion of control. A tool for dependency injection."
 readme = "README.md"
 authors = [
     { name = "Andrei Enache", email = "online@autgraph.com" }
