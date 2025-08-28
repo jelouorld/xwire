@@ -35,12 +35,12 @@ class _engine:
 
 
     def run(self, entrypoint: tp.Callable[..., tp.Any], *args:tp.Any, **kwargs:tp.Any)-> tp.Any:
+        # todo:
+        pass 
+    
         
-        for parameter in inspect.signature(entrypoint).parameters.values(): 
-            run(__registry__[parameter.name])
+    
 
-        breakpoint()
-        return entrypoint()
 
 @contextmanager
 def engine():
