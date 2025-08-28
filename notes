@@ -1,0 +1,6 @@
+framework agnostic
+autowiring
+no annotations
+parameterized inyectables
+
+

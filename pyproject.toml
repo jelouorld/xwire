@@ -1,0 +1,22 @@
+[project]
+name = "xwire"
+version = "0.1.0"
+description = "Smart, recursive, inversion of control. A tool for dependency injection."
+readme = "README.md"
+authors = [
+    { name = "Andrei Enache", email = "online@autgraph.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+xwire = "xwire:main"
+
+[build-system]
+requires = ["uv_build>=0.8.3,<0.9.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipython>=9.4.0",
+]
